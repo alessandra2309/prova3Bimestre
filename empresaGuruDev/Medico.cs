@@ -16,6 +16,8 @@ namespace empresaGuruDev
         public void recebimento()
         {
             salario = salario * 0.20;
+            Console.WriteLine($"seu salario é {salario} reais");
+
         }
     }
 }
